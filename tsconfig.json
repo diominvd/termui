@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    // Type checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "useUnknownInCatchVariables": false,
+    // Modules
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@types/*": ["./src/types/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "types": ["node", "react", "react-dom"],
+    // Emit
+    "declaration": true,
+    "declarationDir": "./build/types",
+    "declarationMap": true,
+    "noEmit": true,
+    "outDir": "./build",
+    // Interop Constraints
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    // Language and Environment
+    "target": "ES2020",
+    "jsx": "react-jsx",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+}

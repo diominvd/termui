@@ -1,0 +1,40 @@
+{
+  "name": "termui",
+  "version": "1.0.0",
+  "description": "A set of ready-made React components for quick creation of user interfaces",
+  "keywords": ["react", "ui-kit", "components"],
+  "author": "diominvd",
+  "license": "MIT",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "types": "./build/types/index.d.ts",
+  "files": ["build"],
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "glob": "^11.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.0",
+    "sass-embedded": "^1.83.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.4",
+    "vite-plugin-dts": "^4.4.0",
+    "vite-plugin-lib-inject-css": "^2.1.1"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
