@@ -2,13 +2,19 @@
   "name": "termui",
   "version": "1.0.0",
   "description": "A set of ready-made React components for quick creation of user interfaces",
-  "keywords": ["react", "ui-kit", "components"],
+  "keywords": [
+    "react",
+    "ui-kit",
+    "components"
+  ],
   "author": "diominvd",
   "license": "MIT",
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/types/index.d.ts",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "exports": {
     ".": {
       "import": "./build/index.js",
