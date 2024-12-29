@@ -1,0 +1,26 @@
+.headline {
+  color: var(--text-light);
+
+  &[data-level='1'] {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.25rem;
+  }
+  &[data-level='2'] {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.17rem;
+  }
+
+  &[data-level='3'] {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 4.58rem;
+  }
+
+  &[data-level='4'] {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+}
